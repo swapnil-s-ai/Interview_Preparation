@@ -209,52 +209,7 @@ Understanding this process helps explain:
 ---
 
 ## Execution Pipeline
-
-```
-Python Source (.py)
-
-        │
-
-        ▼
-
-Tokenizer (Lexical Analysis)
-
-        │
-
-        ▼
-
-Parser
-
-        │
-
-        ▼
-
-Abstract Syntax Tree (AST)
-
-        │
-
-        ▼
-
-Compiler
-
-        │
-
-        ▼
-
-Python Bytecode (.pyc)
-
-        │
-
-        ▼
-
-Python Virtual Machine (PVM)
-
-        │
-
-        ▼
-
-Operating System
-```
+![Python Execution Process](../images/python%20execution%20process.jpg)
 
 ### Stage 1 — Source Code
 

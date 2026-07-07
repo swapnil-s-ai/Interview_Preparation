@@ -29,9 +29,10 @@ For code syntax and quick reference, refer to **02_Syntax.md**.
 - [ ] [Block 11 — Modern Python](#block-11--modern-python)
 - [ ] [Block 12 — Production Python](#block-12--production-python)
 ---
-
 ## Block 01 – Python Fundamentals
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Python fundamentals form the foundation of every technical interview, regardless of whether the role focuses on Machine Learning, Data Science, Data Engineering, or Backend Development. Senior-level interviews rarely ask syntax questions directly; instead, they assess whether you understand Python's execution model, object behavior, mutability, namespaces, variable binding, and language design decisions.
@@ -453,11 +454,12 @@ Senior engineers are expected to reason about object behavior, explain design tr
 - Function arguments are passed using object references.
 - Python emphasizes readability, explicitness, and simplicity.
 - Strong Python fundamentals significantly improve performance in senior-level technical interviews.
+</details>
 
 ---
-
-## Block 02 – Collections
-
+   ## Block 02 – Collections
+<details>
+   <summary>Contents</summary>
 ### Why This Matters
 
 Collections are among the most frequently tested Python topics in senior technical interviews because they directly impact algorithmic complexity, memory usage, and application performance. Choosing the appropriate collection is not simply a syntax decision—it is a design decision.
@@ -893,11 +895,13 @@ Senior engineers prioritize readability first, then optimize collection choices 
 - Assignment copies references, not objects.
 - Shallow and deep copies behave differently for nested collections.
 - Collection choice directly impacts algorithmic complexity and production performance.
+</details>
 
 ---
-
 ## Block 03 – Functions
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Functions are the primary unit of abstraction in Python. Senior engineers are expected to write functions that are reusable, testable, composable, and easy to maintain. Interviewers often use function-related questions to evaluate understanding of Python's execution model, argument passing, scope, closures, higher-order programming, and API design.
@@ -1258,11 +1262,13 @@ Functions that rely heavily on global state, produce hidden side effects, or com
 - Type hints improve maintainability and tooling.
 - Small, composable functions are easier to test and maintain.
 - Function design is a key indicator of senior engineering maturity.
+</details>
 
 ---
-
 ## Block 04 – Functional Programming
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Functional programming is not about replacing object-oriented programming; it is about writing predictable, composable, and side-effect-free code. Modern Python embraces multiple paradigms, and senior engineers are expected to understand when functional techniques improve readability, testability, and performance.
@@ -1623,11 +1629,13 @@ However, overusing functional constructs can reduce readability. Senior engineer
 - List comprehensions are often more readable than `map()` or `filter()`.
 - Functional composition encourages modular software.
 - Functional programming is a valuable tool, not a replacement for OOP.
+</details>
 
 ---
-
 ## Block 05 – Object-Oriented Programming
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Object-Oriented Programming (OOP) remains one of the most heavily evaluated topics in senior Python interviews. While Python supports multiple programming paradigms, most production systems—including web frameworks, machine learning libraries, cloud SDKs, and enterprise applications—rely extensively on object-oriented design.
@@ -2040,11 +2048,13 @@ Deep inheritance trees often become difficult to maintain. Production systems ty
 - Magic methods integrate custom classes with Python's object model.
 - Dataclasses reduce boilerplate for data-centric classes.
 - Strong OOP design emphasizes maintainability, extensibility, and clear responsibilities.
+</details>
 
 ---
-
 ## Block 06 – Exception Handling
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Exception handling is a fundamental aspect of writing resilient software. While junior developers often view exceptions as a way to prevent application crashes, senior engineers use them to build robust systems that fail gracefully, provide meaningful diagnostics, and recover appropriately from unexpected conditions.
@@ -2360,11 +2370,13 @@ Applications should distinguish between recoverable conditions (such as temporar
 - Custom exceptions improve API design and readability.
 - Avoid bare `except:` and silent exception handling.
 - Exception handling is about building reliable, maintainable software—not hiding errors.
+</details>
 
----
-
+---   
 ## Block 07 – File Handling & Context Managers
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 File handling is a core skill in backend development, data engineering, machine learning, and automation. Whether reading configuration files, processing datasets, writing logs, or interacting with cloud storage, production systems continuously work with external resources.
@@ -2742,11 +2754,13 @@ Efficient file processing also requires attention to memory usage, buffering, an
 - Use `pathlib` for modern, cross-platform path handling.
 - Stream large files for better memory efficiency.
 - Resource management is a production engineering concern, not just a file handling topic.
+</details>
 
 ---
-
 ## Block 08 – Iterators & Generators
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Iterators and generators power much of Python's ecosystem. They enable lazy evaluation, efficient memory usage, and scalable data processing. Modern libraries such as **pandas**, **NumPy**, **PyTorch**, **TensorFlow**, and countless ETL frameworks rely heavily on Python's iterator protocol.
@@ -3101,11 +3115,13 @@ However, generators are single-use iterators. If multiple passes over the same d
 - Lazy evaluation improves memory efficiency.
 - Generators are ideal for streaming and large-scale data processing.
 - Understanding Python's iteration model is essential for senior-level interviews.
+</details>
 
 ---
-
 ## Block 09 – Decorators
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Decorators are one of Python's most distinctive language features and are frequently discussed in senior interviews. While junior interviews often focus on syntax, senior interviews evaluate whether you understand decorators as an application of first-class functions, closures, and higher-order programming.
@@ -3398,11 +3414,13 @@ However, excessive decorator stacking can make execution flow difficult to follo
 - Decorators promote separation of concerns and code reuse.
 - Built-in decorators are widely used throughout modern Python.
 - Decorators are a frequent senior interview topic because they combine multiple advanced Python concepts.
+</details>
 
 ---
-
 ## Block 10 – Memory Management
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Memory management is one of the clearest differentiators between intermediate and senior Python developers. Most candidates know that Python has a garbage collector; experienced engineers understand **how objects are allocated, referenced, collected, and optimized**.
@@ -3688,11 +3706,13 @@ Before optimizing memory usage, profile the application. Premature optimization 
 - Shallow and deep copies have different behaviors.
 - Weak references support efficient caching.
 - Understanding memory management improves debugging and performance optimization.
+</details>
 
 ---
-
 ## Block 11 – Modern Python
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Python has evolved significantly over the past few releases. Senior engineers are expected to stay current with language improvements that increase readability, correctness, and developer productivity.
@@ -3939,11 +3959,13 @@ Language features should improve clarity—not demonstrate familiarity with the 
 - Structural pattern matching improves complex branching logic.
 - Modern typing features strengthen API design.
 - Senior engineers continuously evolve with the language.
+</details>
 
 ---
-
 ## Block 12 – Production Python
-
+<details>
+   <summary>Contents</summary>
+   
 ### Why This Matters
 
 Knowing Python syntax is enough to solve coding problems. Knowing how to build, maintain, debug, and scale Python applications is what differentiates a **Senior Software Engineer** or **Senior Data Scientist**.
@@ -4402,3 +4424,4 @@ The best production code is often intentionally unremarkable—it is easy to rea
 - Resource management and security must be built into the design.
 - Senior engineers optimize for long-term system health rather than short-term implementation speed.
 - Engineering maturity is demonstrated through maintainable, reliable, and production-ready software.
+</details>

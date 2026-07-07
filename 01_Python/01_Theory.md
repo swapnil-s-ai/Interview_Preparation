@@ -16,19 +16,18 @@ For code syntax and quick reference, refer to **02_Syntax.md**.
 
 # Learning Roadmap
 
-- [ ] Block 1 — Python Fundamentals
-- [ ] Block 2 — Collections
-- [ ] Block 3 — Functions
-- [ ] Block 4 — Functional Programming
-- [ ] Block 5 — Object-Oriented Programming
-- [ ] Block 6 — Exception Handling
-- [ ] Block 7 — File Handling & Context Managers
-- [ ] Block 8 — Iterators & Generators
-- [ ] Block 9 — Decorators
-- [ ] Block 10 — Memory Management
-- [ ] Block 11 — Modern Python
-- [ ] Block 12 — Production Python
-
+- [ ] [Block 01 — Python Fundamentals](#block-01--python-fundamentals)
+- [ ] [Block 02 — Collections](#block-02--collections)
+- [ ] [Block 03 — Functions](#block-03--functions)
+- [ ] [Block 04 — Functional Programming](#block-04--functional-programming)
+- [ ] [Block 05 — Object-Oriented Programming](#block-05--object-oriented-programming)
+- [ ] [Block 06 — Exception Handling](#block-06--exception-handling)
+- [ ] [Block 07 — File Handling & Context Managers](#block-07--file-handling--context-managers)
+- [ ] [Block 08 — Iterators & Generators](#block-08--iterators--generators)
+- [ ] [Block 09 — Decorators](#block-09--decorators)
+- [ ] [Block 10 — Memory Management](#block-10--memory-management)
+- [ ] [Block 11 — Modern Python](#block-11--modern-python)
+- [ ] [Block 12 — Production Python](#block-12--production-python)
 ---
 
 ## Block 01 – Python Fundamentals

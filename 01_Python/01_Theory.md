@@ -460,6 +460,7 @@ Senior engineers are expected to reason about object behavior, explain design tr
    ## Block 02 – Collections
 <details>
    <summary>Contents</summary>
+   
 ### Why This Matters
 
 Collections are among the most frequently tested Python topics in senior technical interviews because they directly impact algorithmic complexity, memory usage, and application performance. Choosing the appropriate collection is not simply a syntax decision—it is a design decision.
